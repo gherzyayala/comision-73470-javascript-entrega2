@@ -22,7 +22,7 @@ function restaurarMainInicial() {
             </div>
 
             <div>
-                <input type="submit" value="2. Crear cuenta para cliente existente" class="btn-crearCuentaCliente">
+                <input type="submit" value="2. Crear cuenta para cliente" class="btn-crearCuentaCliente">
             </div>
 
             <div>
