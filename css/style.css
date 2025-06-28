@@ -103,4 +103,6 @@ hr{
     margin: 1rem;
     color: rgb(236, 225, 225);
     border-radius: 2%;
+    text-transform: none;
+    text-decoration: solid;
 }
