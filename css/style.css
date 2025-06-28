@@ -1,0 +1,106 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Globales */
+body{
+    background-color: gray;
+    font-size: 1.6rem;
+    color: rgb(189, 180, 180);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/banner.webp');
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 2rem;
+    font-weight: normal;
+}
+
+input{
+    padding: 1rem;
+    margin: 1rem;
+    gap: 1rem;
+    font-weight: bold;
+    width: 50rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+
+input:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    color: burlywood;
+}
+
+hr{
+    margin: 1rem;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.input{
+    background-color: white;
+    color: black;
+}
+
+.input::placeholder{
+    color: black;
+    font-weight: bold;
+}
+
+.input:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: black;
+}
+
+.mensaje-error{
+    background-color: red;
+    color: white;
+    border-radius: 2%;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.mensaje-exito{
+    background-color: green;
+    color: white;
+    border-radius: 2%;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.mensaje-despedida{
+    background-color: rgb(10, 10, 10);
+    padding: 1rem;
+    margin: 1rem;
+    color: rgb(236, 225, 225);
+    border-radius: 2%;
+}
